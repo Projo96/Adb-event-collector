@@ -4,6 +4,7 @@ This repository contains and Android events collector created through usiing a c
 No Android Studio installation is required and it works different operating systems.
 
 For windows the installation of the basic python release is needed you can find it here: https://www.python.org/downloads/
+Or you can download a portable version of the python interpreter: https://winpython.github.io/
 
 In order to use the program you need to allow the usb debug on your smartphone here a simple guide: https://www.makeuseof.com/tag/what-is-usb-debugging-mode-on-android-makeuseof-explains/
 
