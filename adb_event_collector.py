@@ -41,11 +41,11 @@ def verifyIfNotConnected(adbDevices, ip):
 
 def connectToDevice(ip):
     # Connect to an android device
-    print('Accept prompt one last time')
+    print('Accept prompt one last time it might take up to 1 minute')
     
     os.popen("adb connect " + ip + ":" + str(PORT)).read()
     #sleep(3)
-    input("press any key when you're done")
+    input("press Enter when you're done")
     ip_addr = getIP()
     if ip_addr == ip:
         return True
@@ -90,8 +90,8 @@ def adbOverWiFi():
         #os.chdir(adb_path)
         os.popen("adb tcpip " + str(PORT))
         print("PORT 5555 open for " + ip_addr)
-        print('Disconnect device from the cable')
-        input("press any key when you're done")#sleep(4) # Sleep for 3 seconds
+        print('Disconnect device from the cable and press Accept')
+        input("Press ENTER when you're done")#sleep(3) # Sleep for 3 seconds
 
         if (connectToDevice(ip_addr)):
             print("Connected to " + ip_addr)
@@ -119,16 +119,18 @@ def saveDeviceDisplayInfo(path):#to be called after the device is connected
 def define_adb_path():
     global adb_path
     global output_path
+
     if platform == "linux" or platform == "linux2":
         # linux
-        adb_path = './platform-tools_linux/'
+        adb_path = './platform-tools/platform-tools_linux/'
+    
     elif platform == "darwin":
         # OS X
-        adb_path = './platform-tools_darwin/'
+        adb_path = './platform-tools/platform-tools_darwin/'
+    
     elif platform == "win32":
         # Windows..
-        
-        adb_path ='./platform-tools_win32/'
+        adb_path ='./platform-tools/platform-tools_win32/'
         output_path = os.getcwd()+'\\collected_data\\'
 
 #adbclient1 = AdbClient(serialno=serialno)
