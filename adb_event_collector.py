@@ -106,11 +106,13 @@ def adbOverWiFi():
 def saveDeviceDisplayInfo(path):#to be called after the device is connected
     adbclient = AdbClient(serialno=serialno,)
     #info = adbclient.getPhysicalDisplayInfo()
-    info = adbclient.getDisplayInfo()
+    screen_info = adbclient.getDisplayInfo()
     #info3 = adbclient.getLogicalDisplayInfo()
     #print(info,info2,info3)
+
+
     f = open(path+'screen.txt', 'a')
-    f.write(str(info))
+    f.write(str(screen_info))
     f.close()
     return 
 

@@ -1,0 +1,1 @@
+{'width': 1080, 'height': 2280, 'orientation': 0, 'density': 2.8125}
