@@ -1,7 +1,6 @@
 '''
-Created on Jun 13, 2014
-
-@author: diego
+Modified version of the code written by Diego Torres Milano
+original repository https://github.com/dtmilano/AndroidViewClient
 '''
 
 KEY_MAP = dict()
