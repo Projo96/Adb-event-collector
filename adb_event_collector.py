@@ -152,7 +152,7 @@ def Mbox(title, text, style):
 #-------------------------------------------------------------------------------------------------------------------#
 #MAIN CODE  
 if __name__ == "__main__":
-
+    init = False
     define_adb_path()  
     os.chdir(adb_path)
 
@@ -166,7 +166,15 @@ if __name__ == "__main__":
     print('Start Collecting Data')
     app1.start()
     app2.start()
-
+    while True:
+        if not app1.is_alive():
+            print("Restart touch collection")
+            app1 = save_touch()
+            app1.start()
+        if not app2.is_alive():
+            print("Restart accessibility collection")
+            app2 = save_accessibility()
+            app2.start()
     app1.join()
     app2.join()
 
