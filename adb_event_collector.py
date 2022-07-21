@@ -115,17 +115,25 @@ def adbOverWiFi():
             print("ERROR:", ex, file=sys.stderr)
 
 
-def saveDeviceDisplayInfo(path):#to be called after the device is connected
+def saveDeviceInfo(path):#to be called after the device is connected
     adbclient = AdbClient(serialno=serialno,)
     
     screen_info = adbclient.getDisplayInfo()
+    device_prop =adbclient.shell('getprop')
+    screen_prop =adbclient.shell('dumpsys display')
     #Alternatives
     #adbclient.getPhysicalDisplayInfo()
     #adbclient.getLogicalDisplayInfo()
 
     #save data on file
-    f = open(path+'screen.txt', 'a')
-    f.write(str(screen_info))
+
+    f = open(path+'device.txt', 'a')
+    f.write(str(device_prop))
+    f.close()
+
+    f = open(path+'display.txt', 'a')
+    f.write(str(screen_info)+'\n\n')
+    f.write(str(screen_prop))
     f.close()
     return 
 
@@ -158,7 +166,7 @@ if __name__ == "__main__":
 
     adbOverWiFi()
     
-    saveDeviceDisplayInfo(output_path)
+    saveDeviceInfo(output_path)
 
     app1 = save_touch()
     app2 = save_accessibility()

@@ -529,7 +529,7 @@ class AdbClient:
                             print('🟣 chunk=%s' % chunk.decode('utf-8'))
                         if output_file != None:
                             
-                            f.write('['+str(time.time())+']'+chunk.decode("utf-8")) 
+                            f.write(chunk.decode("utf-8")) 
 
                     except Exception as ex:
                         print("ERROR:", ex, file=sys.stderr)
