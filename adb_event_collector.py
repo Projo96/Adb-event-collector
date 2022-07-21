@@ -98,6 +98,7 @@ def adbOverWiFi():
         print('Disconnect device from the cable and press Accept')
         input("Press ENTER when you're done")#sleep(3) # Sleep for 3 seconds
 
+
         if (connectToDevice(ip_addr)):
             print("Connected to " + ip_addr)
         else:
