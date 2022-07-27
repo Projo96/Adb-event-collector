@@ -14,7 +14,7 @@ import ctypes
 #-------------------------------------------------------------------------------------------------------------------#
 #global variables
 PORT = 5555
-
+cableOnly = True
 
 adb_path = '.'
 output_path = './collected_data/'
@@ -114,24 +114,39 @@ def adbOverWiFi():
             print('ERROR')
             print("ERROR:", ex, file=sys.stderr)
 
+def adbOverCable():
+    #connect the device through wifi and not cable anymore
+    os.popen("adb kill-server") # stop an adb server if is already up in order to reset all the existing connections
+    print('Accept promtp on the screen')
+    #os.chdir(adb_path)
+    adbDevices = os.popen("adb start-server").read()#start the adb client need to be in the same dir as adb.exe
+    return
 
 def saveDeviceInfo(path):#to be called after the device is connected
     adbclient = AdbClient(serialno=serialno,)
-    
-    screen_info = adbclient.getDisplayInfo()
-    device_prop =adbclient.shell('getprop')
-    screen_prop =adbclient.shell('dumpsys display')
     #Alternatives
     #adbclient.getPhysicalDisplayInfo()
     #adbclient.getLogicalDisplayInfo()
+    
+    screen_info = adbclient.getDisplayInfo() #get display resolution and density
+    screen_prop =adbclient.shell('dumpsys display') #get all display properties
+
+    device_prop_list =adbclient.shell('getprop').split('\n') #get all the device propoerties
+
+    #Get a subset of the informations
+    device_prop = ''
+    for prop in device_prop_list:
+        if 'ro.product' in prop:
+            device_prop = device_prop + prop +'\n' 
+
 
     #save data on file
 
-    f = open(path+'device.txt', 'a')
+    f = open(path+'device.txt', 'w')
     f.write(str(device_prop))
     f.close()
 
-    f = open(path+'display.txt', 'a')
+    f = open(path+'display.txt', 'w')
     f.write(str(screen_info)+'\n\n')
     f.write(str(screen_prop))
     f.close()
@@ -164,7 +179,10 @@ if __name__ == "__main__":
     define_adb_path()  
     os.chdir(adb_path)
 
-    adbOverWiFi()
+    if cableOnly:
+        adbOverCable()
+    else:
+        adbOverWiFi()
     
     saveDeviceInfo(output_path)
 

@@ -77,7 +77,7 @@ Display Devices: size=1
     mActiveColorMode=0
     mDefaultModeId=1
     mState=ON
-    mBrightnessState=0.22804745
+    mBrightnessState=0.1775873
     mBacklight=com.android.server.lights.LightsService$LightImpl@a57bba9
     mAllmSupported=false
     mAllmRequested=false
@@ -123,94 +123,95 @@ DisplayModeDirector
     mLastSensorData: 0.0
 
 
-Callbacks: size=87
-  0: mPid=590, mWifiDisplayScanRequested=false
-  1: mPid=635, mWifiDisplayScanRequested=false
-  2: mPid=771, mWifiDisplayScanRequested=false
-  3: mPid=1136, mWifiDisplayScanRequested=false
-  4: mPid=1180, mWifiDisplayScanRequested=false
-  5: mPid=1231, mWifiDisplayScanRequested=false
-  6: mPid=1307, mWifiDisplayScanRequested=false
-  7: mPid=1499, mWifiDisplayScanRequested=false
-  8: mPid=1592, mWifiDisplayScanRequested=false
-  9: mPid=2008, mWifiDisplayScanRequested=false
-  10: mPid=2406, mWifiDisplayScanRequested=false
-  11: mPid=2447, mWifiDisplayScanRequested=false
-  12: mPid=2467, mWifiDisplayScanRequested=false
-  13: mPid=2541, mWifiDisplayScanRequested=false
-  14: mPid=2826, mWifiDisplayScanRequested=false
-  15: mPid=2896, mWifiDisplayScanRequested=false
-  16: mPid=2950, mWifiDisplayScanRequested=false
-  17: mPid=2998, mWifiDisplayScanRequested=false
-  18: mPid=3020, mWifiDisplayScanRequested=false
-  19: mPid=3040, mWifiDisplayScanRequested=false
-  20: mPid=3062, mWifiDisplayScanRequested=false
-  21: mPid=3078, mWifiDisplayScanRequested=false
-  22: mPid=3115, mWifiDisplayScanRequested=false
-  23: mPid=3134, mWifiDisplayScanRequested=false
-  24: mPid=3157, mWifiDisplayScanRequested=false
-  25: mPid=3180, mWifiDisplayScanRequested=false
-  26: mPid=3199, mWifiDisplayScanRequested=false
-  27: mPid=3247, mWifiDisplayScanRequested=false
-  28: mPid=3711, mWifiDisplayScanRequested=false
-  29: mPid=4041, mWifiDisplayScanRequested=false
-  30: mPid=4139, mWifiDisplayScanRequested=false
-  31: mPid=4285, mWifiDisplayScanRequested=false
-  32: mPid=5619, mWifiDisplayScanRequested=false
-  33: mPid=5666, mWifiDisplayScanRequested=false
-  34: mPid=5707, mWifiDisplayScanRequested=false
-  35: mPid=5737, mWifiDisplayScanRequested=false
-  36: mPid=5751, mWifiDisplayScanRequested=false
-  37: mPid=5790, mWifiDisplayScanRequested=false
-  38: mPid=6134, mWifiDisplayScanRequested=false
-  39: mPid=6459, mWifiDisplayScanRequested=false
-  40: mPid=7573, mWifiDisplayScanRequested=false
-  41: mPid=7760, mWifiDisplayScanRequested=false
-  42: mPid=7860, mWifiDisplayScanRequested=false
-  43: mPid=7969, mWifiDisplayScanRequested=false
-  44: mPid=8636, mWifiDisplayScanRequested=false
-  45: mPid=8830, mWifiDisplayScanRequested=false
-  46: mPid=8967, mWifiDisplayScanRequested=false
-  47: mPid=10227, mWifiDisplayScanRequested=false
-  48: mPid=10336, mWifiDisplayScanRequested=false
-  49: mPid=10519, mWifiDisplayScanRequested=false
-  50: mPid=10571, mWifiDisplayScanRequested=false
-  51: mPid=10868, mWifiDisplayScanRequested=false
-  52: mPid=11682, mWifiDisplayScanRequested=false
-  53: mPid=11733, mWifiDisplayScanRequested=false
-  54: mPid=17501, mWifiDisplayScanRequested=false
-  55: mPid=17897, mWifiDisplayScanRequested=false
-  56: mPid=17941, mWifiDisplayScanRequested=false
-  57: mPid=19866, mWifiDisplayScanRequested=false
-  58: mPid=20787, mWifiDisplayScanRequested=false
-  59: mPid=21796, mWifiDisplayScanRequested=false
-  60: mPid=22550, mWifiDisplayScanRequested=false
-  61: mPid=23936, mWifiDisplayScanRequested=false
-  62: mPid=24040, mWifiDisplayScanRequested=false
-  63: mPid=24168, mWifiDisplayScanRequested=false
-  64: mPid=24298, mWifiDisplayScanRequested=false
-  65: mPid=24546, mWifiDisplayScanRequested=false
-  66: mPid=25202, mWifiDisplayScanRequested=false
-  67: mPid=27963, mWifiDisplayScanRequested=false
-  68: mPid=28545, mWifiDisplayScanRequested=false
-  69: mPid=29411, mWifiDisplayScanRequested=false
-  70: mPid=30032, mWifiDisplayScanRequested=false
-  71: mPid=30052, mWifiDisplayScanRequested=false
-  72: mPid=30175, mWifiDisplayScanRequested=false
-  73: mPid=30503, mWifiDisplayScanRequested=false
-  74: mPid=30636, mWifiDisplayScanRequested=false
-  75: mPid=30683, mWifiDisplayScanRequested=false
-  76: mPid=31658, mWifiDisplayScanRequested=false
-  77: mPid=31735, mWifiDisplayScanRequested=false
-  78: mPid=31769, mWifiDisplayScanRequested=false
-  79: mPid=31874, mWifiDisplayScanRequested=false
-  80: mPid=31892, mWifiDisplayScanRequested=false
-  81: mPid=32091, mWifiDisplayScanRequested=false
-  82: mPid=32199, mWifiDisplayScanRequested=false
-  83: mPid=32386, mWifiDisplayScanRequested=false
-  84: mPid=32458, mWifiDisplayScanRequested=false
-  85: mPid=32604, mWifiDisplayScanRequested=false
-  86: mPid=32760, mWifiDisplayScanRequested=false
+Callbacks: size=88
+  0: mPid=855, mWifiDisplayScanRequested=false
+  1: mPid=1081, mWifiDisplayScanRequested=false
+  2: mPid=1307, mWifiDisplayScanRequested=false
+  3: mPid=1488, mWifiDisplayScanRequested=false
+  4: mPid=2054, mWifiDisplayScanRequested=false
+  5: mPid=2439, mWifiDisplayScanRequested=false
+  6: mPid=2447, mWifiDisplayScanRequested=false
+  7: mPid=2467, mWifiDisplayScanRequested=false
+  8: mPid=2541, mWifiDisplayScanRequested=false
+  9: mPid=2802, mWifiDisplayScanRequested=false
+  10: mPid=2826, mWifiDisplayScanRequested=false
+  11: mPid=2896, mWifiDisplayScanRequested=false
+  12: mPid=2950, mWifiDisplayScanRequested=false
+  13: mPid=2998, mWifiDisplayScanRequested=false
+  14: mPid=3020, mWifiDisplayScanRequested=false
+  15: mPid=3040, mWifiDisplayScanRequested=false
+  16: mPid=3062, mWifiDisplayScanRequested=false
+  17: mPid=3078, mWifiDisplayScanRequested=false
+  18: mPid=3082, mWifiDisplayScanRequested=false
+  19: mPid=3115, mWifiDisplayScanRequested=false
+  20: mPid=3134, mWifiDisplayScanRequested=false
+  21: mPid=3138, mWifiDisplayScanRequested=false
+  22: mPid=3157, mWifiDisplayScanRequested=false
+  23: mPid=3180, mWifiDisplayScanRequested=false
+  24: mPid=3199, mWifiDisplayScanRequested=false
+  25: mPid=3247, mWifiDisplayScanRequested=false
+  26: mPid=3333, mWifiDisplayScanRequested=false
+  27: mPid=4041, mWifiDisplayScanRequested=false
+  28: mPid=4139, mWifiDisplayScanRequested=false
+  29: mPid=5619, mWifiDisplayScanRequested=false
+  30: mPid=5666, mWifiDisplayScanRequested=false
+  31: mPid=5707, mWifiDisplayScanRequested=false
+  32: mPid=5737, mWifiDisplayScanRequested=false
+  33: mPid=5751, mWifiDisplayScanRequested=false
+  34: mPid=5790, mWifiDisplayScanRequested=false
+  35: mPid=6933, mWifiDisplayScanRequested=false
+  36: mPid=10938, mWifiDisplayScanRequested=false
+  37: mPid=14132, mWifiDisplayScanRequested=false
+  38: mPid=14520, mWifiDisplayScanRequested=false
+  39: mPid=14691, mWifiDisplayScanRequested=false
+  40: mPid=14755, mWifiDisplayScanRequested=false
+  41: mPid=14839, mWifiDisplayScanRequested=false
+  42: mPid=14933, mWifiDisplayScanRequested=false
+  43: mPid=14980, mWifiDisplayScanRequested=false
+  44: mPid=15288, mWifiDisplayScanRequested=false
+  45: mPid=15484, mWifiDisplayScanRequested=false
+  46: mPid=15584, mWifiDisplayScanRequested=false
+  47: mPid=15633, mWifiDisplayScanRequested=false
+  48: mPid=16532, mWifiDisplayScanRequested=false
+  49: mPid=16852, mWifiDisplayScanRequested=false
+  50: mPid=16881, mWifiDisplayScanRequested=false
+  51: mPid=17941, mWifiDisplayScanRequested=false
+  52: mPid=19258, mWifiDisplayScanRequested=false
+  53: mPid=19800, mWifiDisplayScanRequested=false
+  54: mPid=19846, mWifiDisplayScanRequested=false
+  55: mPid=19866, mWifiDisplayScanRequested=false
+  56: mPid=20711, mWifiDisplayScanRequested=false
+  57: mPid=20787, mWifiDisplayScanRequested=false
+  58: mPid=21488, mWifiDisplayScanRequested=false
+  59: mPid=21543, mWifiDisplayScanRequested=false
+  60: mPid=22275, mWifiDisplayScanRequested=false
+  61: mPid=22528, mWifiDisplayScanRequested=false
+  62: mPid=23936, mWifiDisplayScanRequested=false
+  63: mPid=24418, mWifiDisplayScanRequested=false
+  64: mPid=24770, mWifiDisplayScanRequested=false
+  65: mPid=26324, mWifiDisplayScanRequested=false
+  66: mPid=27537, mWifiDisplayScanRequested=false
+  67: mPid=27637, mWifiDisplayScanRequested=false
+  68: mPid=28295, mWifiDisplayScanRequested=false
+  69: mPid=28820, mWifiDisplayScanRequested=false
+  70: mPid=29004, mWifiDisplayScanRequested=false
+  71: mPid=29081, mWifiDisplayScanRequested=false
+  72: mPid=29718, mWifiDisplayScanRequested=false
+  73: mPid=30745, mWifiDisplayScanRequested=false
+  74: mPid=31573, mWifiDisplayScanRequested=false
+  75: mPid=31593, mWifiDisplayScanRequested=false
+  76: mPid=31699, mWifiDisplayScanRequested=false
+  77: mPid=31726, mWifiDisplayScanRequested=false
+  78: mPid=31743, mWifiDisplayScanRequested=false
+  79: mPid=31989, mWifiDisplayScanRequested=false
+  80: mPid=32060, mWifiDisplayScanRequested=false
+  81: mPid=32150, mWifiDisplayScanRequested=false
+  82: mPid=32187, mWifiDisplayScanRequested=false
+  83: mPid=32324, mWifiDisplayScanRequested=false
+  84: mPid=32380, mWifiDisplayScanRequested=false
+  85: mPid=32460, mWifiDisplayScanRequested=false
+  86: mPid=32587, mWifiDisplayScanRequested=false
+  87: mPid=32604, mWifiDisplayScanRequested=false
 
 Display Power Controller Locked State:
   mDisplayReadyLocked=true
@@ -245,9 +246,9 @@ OpAutoBrightnessHelper State:
   mNightModeBrightness = 100
   mPackageName = net.oneplus.launcher
   mEnterLux = -1.0
-  mCurrentHour = 18
-  mOrigBrightnessLevel = 0.14589804
-  mAdjustedBrightnessLevel = 0.6794073
+  mCurrentHour = 21
+  mOrigBrightnessLevel = 0.01674756
+  mAdjustedBrightnessLevel = 0.110114455
   mExtremeState = -1
   mRGB = ffffff
   mOptFuncOn = 0
@@ -255,7 +256,7 @@ OpAutoBrightnessHelper State:
   mBrightnessStaticsLevel=0.8320405
   mTorchModeEnabled=false
   mFlashlightEnabled=false
-  mDitherEnabled=false
+  mDitherEnabled=true
   mInHighTemp=false
   mHighTempRate=0.05
   mHighTempFactor=1.0
@@ -271,9 +272,9 @@ Display Power Controller Thread State:
   mProximityThreshold=5.0
   mProximity=Unknown
   mPendingProximity=Unknown
-  mPendingProximityDebounceTime=-1 (126048564 ms ago)
+  mPendingProximityDebounceTime=-1 (542868325 ms ago)
   mScreenOffBecauseOfProximity=false
-  mLastUserSetScreenBrightnessFloat=0.6794073
+  mLastUserSetScreenBrightnessFloat=0.110114455
   mPendingScreenBrightnessSettingFloat=NaN
   mTemporaryScreenBrightnessFloat=NaN
   mAutoBrightnessAdjustment=0.0
@@ -288,8 +289,8 @@ Display Power Controller Thread State:
   mAppliedTemporaryBrightness=false
   mDozing=false
   mSkipRampState=RAMP_STATE_SKIP_NONE
-  mScreenOnBlockStartRealTime=258487769
-  mScreenOffBlockStartRealTime=258479617
+  mScreenOnBlockStartRealTime=788370085
+  mScreenOffBlockStartRealTime=788367257
   mPendingScreenOnUnblocker=null
   mPendingScreenOffUnblocker=null
   mPendingScreenOff=false
@@ -300,7 +301,7 @@ Display Power Controller Thread State:
 
 Display Power State:
   mScreenState=ON
-  mScreenBrightness=0.22804745
+  mScreenBrightness=0.1775873
   mScreenReady=true
   mScreenUpdatePending=false
   mColorFadePrepared=false
@@ -310,9 +311,9 @@ Display Power State:
 
 Photonic Modulator State:
   mPendingState=ON
-  mPendingBacklight=0.22804745
+  mPendingBacklight=0.1775873
   mActualState=ON
-  mActualBacklight=0.22804745
+  mActualBacklight=0.1775873
   mStateChangeInProgress=false
   mBacklightChangeInProgress=false
 
@@ -341,26 +342,26 @@ Automatic Brightness Controller Configuration:
 Automatic Brightness Controller State:
   mLightSensor={Sensor name="TMD3725_Light Ambient Light Sensor Non-wakeup", vendor="ams AG", version=256, type=5, maxRange=1.0, resolution=0.01, power=0.08, minDelay=0}
   mLightSensorEnabled=true
-  mLightSensorEnableTime=126026482 (22081 ms ago)
+  mLightSensorEnableTime=542850903 (17421 ms ago)
   mCurrentLightSensorRate=250
-  mAmbientLux=143.0
+  mAmbientLux=31.0
   mAmbientLuxValid=true
-  mAmbientBrighteningThreshold=157.3
-  mAmbientDarkeningThreshold=114.4
-  mScreenBrighteningThreshold=0.22804745
-  mScreenDarkeningThreshold=0.22804745
-  mLastObservedLux=133.0
-  mLastObservedLuxTime=126040279 (8284 ms ago)
-  mRecentLightSamples=14
-  mAmbientLightRingBuffer=[133.0 / 8282ms]
-  mScreenAutoBrightness=0.22804745
+  mAmbientBrighteningThreshold=110.0
+  mAmbientDarkeningThreshold=10.0
+  mScreenBrighteningThreshold=0.1775873
+  mScreenDarkeningThreshold=0.1775873
+  mLastObservedLux=31.0
+  mLastObservedLuxTime=542867963 (361 ms ago)
+  mRecentLightSamples=23
+  mAmbientLightRingBuffer=[27.0 / 2081ms, 28.0 / 3819ms, 30.0 / 100ms, 31.0 / 361ms]
+  mScreenAutoBrightness=0.1775873
   mDisplayPolicy=BRIGHT
   mShortTermModelTimeout=300000
   mShortTermModelAnchor=-1.0
   mShortTermModelValid=false
   mBrightnessAdjustmentSamplePending=false
-  mBrightnessAdjustmentSampleOldLux=26.0
-  mBrightnessAdjustmentSampleOldBrightness=0.14589804
+  mBrightnessAdjustmentSampleOldLux=1.7
+  mBrightnessAdjustmentSampleOldBrightness=0.01674756
   mForegroundAppPackageName=net.oneplus.launcher
   mPendingForegroundAppPackageName=null
   mForegroundAppCategory=-1
@@ -382,10 +383,10 @@ PhysicalMappingStrategy
   mUserBrightness=-1.0
   mDefaultConfig=BrightnessConfiguration{[(0.0, 2.0487), (1.0, 4.848), (4.0, 17.2347), (12.0, 39.0867), (20.0, 50.671), (40.0, 92.3019), (65.0, 94.2512), (95.0, 98.372), (140.0, 100.297), (200.0, 105.297), (350.0, 120.385), (650.0, 142.064), (1300.0, 236.5179), (2000.0, 350.0267), (3300.0, 427.6287)], {}, ', shouldCollectColorSamples = false, shortTermModelTimeout = 300000, shortTermModelLowerLuxMultiplier = 0.6, shortTermModelUpperLuxMultiplier = 0.6'}
   mHBMLuxToBacklightSpline=MonotoneCubicSpline{[(20000.0, 10.0: 0.01), (23000.0, 40.0: 0.01), (26000.0, 70.0: 0.01), (29000.0, 100.0: 0.013333334), (32000.0, 150.0: 0.016666668), (35000.0, 200.0: 0.025000002), (38000.0, 300.0: 0.033333335), (41000.0, 400.0: 0.050000004), (44000.0, 600.0: 0.06666667), (47000.0, 800.0: 0.0705), (50000.0, 1023.0: 0.07433333)]}
-  mHBMLuxThreshold=20000
+  mHBMLuxThreshold=30000
   mMinHBMLevel=1
   mMaxHBMLevel=1023
-  mBatteryLevel=98
+  mBatteryLevel=46
 
 HysteresisLevels
   mBrighteningThresholds=[0.1]
@@ -398,21 +399,12 @@ HysteresisLevels
 
 BrightnessTracker state:
   mStarted=true
-  mLastBatteryLevel=0.98
-  mLastBrightness=100.61629
-  mLastSensorReadings.size=7
-  mLastSensorReadings time span 258490949599811->258501554575853
-  mEventsDirty=false
-  mEvents.size=28
-    06-20 22:01:47.438, userId=0, 9.138458->95.76614, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(11.0,1655755296637), (12.0,1655755297240), (11.0,1655755299200), (12.0,1655755299451), (11.0,1655755299602), (9.0,1655755301210), (8.0,1655755301511), (9.0,1655755302064), (6.0,1655755302115), (8.0,1655755302316), (6.0,1655755302366), (5.0,1655755302517), (6.0,1655755303170), (8.0,1655755303220), (6.0,1655755303371), (5.0,1655755303421), (6.0,1655755303723), (8.0,1655755303773), (11.0,1655755303823), (13.0,1655755303873), (15.0,1655755303924), (16.0,1655755303974), (19.0,1655755304024), (20.0,1655755304075), (17.0,1655755304175), (12.0,1655755304225), (8.0,1655755304276), (6.0,1655755304326), (5.0,1655755304678), (6.0,1655755305331), (5.0,1655755305683), (6.0,1655755306085), (5.0,1655755306236), (6.0,1655755306487), (5.0,1655755306638), (6.0,1655755306688), (8.0,1655755306788), (6.0,1655755306989), (8.0,1655755307040), (6.0,1655755307090), (5.0,1655755307190)}
-    06-23 13:34:36.962, userId=0, 122.85158->7.046839, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(682.0,1655984024574), (2927.0,1655984069563), (1085.0,1655984069854), (491.0,1655984069913), (380.0,1655984070437), (363.0,1655984070728), (377.0,1655984072008), (363.0,1655984072863), (1287.0,1655984075878), (1242.0,1655984076130)}
-    06-23 13:34:48.397, userId=0, 11.239523->113.04942, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(1242.0,1655984076130), (740.0,1655984077487), (1377.0,1655984077588), (2302.0,1655984077638), (3310.0,1655984077688), (3826.0,1655984077789), (3059.0,1655984077889), (2445.0,1655984077940), (1765.0,1655984077990), (1188.0,1655984078040), (691.0,1655984078090), (457.0,1655984078241), (495.0,1655984078392), (498.0,1655984078493), (521.0,1655984078744), (363.0,1655984085277), (411.0,1655984085328), (1744.0,1655984086282), (1363.0,1655984086785), (772.0,1655984086986)}
-    06-23 23:15:27.636, userId=0, 11.239523->117.18786, isUserSetBrightness=false, powerBrightnessFactor=0.5, isDefaultBrightnessConfig=true {(11.0,1656018916332), (9.0,1656018917638), (11.0,1656018918191), (12.0,1656018918292), (11.0,1656018918794), (9.0,1656018918945), (11.0,1656018919950), (9.0,1656018920452), (8.0,1656018920603), (6.0,1656018920754), (8.0,1656018920955), (9.0,1656018921156), (11.0,1656018921608), (8.0,1656018921709), (9.0,1656018921759), (6.0,1656018921809), (8.0,1656018922060), (6.0,1656018922362), (8.0,1656018922714), (6.0,1656018923668), (5.0,1656018923769), (4.0,1656018923869), (5.0,1656018924271), (6.0,1656018924372), (8.0,1656018924422), (9.0,1656018924472), (11.0,1656018924523), (13.0,1656018925176), (15.0,1656018925226), (17.0,1656018925276), (19.0,1656018925377), (17.0,1656018925477), (16.0,1656018925528), (11.0,1656018925578), (5.0,1656018925628), (4.0,1656018925678), (5.0,1656018925980), (4.0,1656018926181), (5.0,1656018926281), (4.0,1656018926583)}
-    06-24 19:15:48.131, userId=0, 102.2207->23.753963, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(41.0,1656090936300), (42.0,1656090938009), (52.0,1656090939366), (77.0,1656090939416), (92.0,1656090939466), (99.0,1656090939517), (86.0,1656090939567), (67.0,1656090939617), (72.0,1656090939768), (64.0,1656090939969), (71.0,1656090940120), (66.0,1656090940220), (55.0,1656090940321), (49.0,1656090940421), (42.0,1656090940472), (30.0,1656090940522), (23.0,1656090940572), (20.0,1656090940622), (19.0,1656090940723), (11.0,1656090940773), (9.0,1656090940924), (12.0,1656090941125), (13.0,1656090941326), (15.0,1656090941376), (13.0,1656090941477), (11.0,1656090941577), (13.0,1656090941728), (15.0,1656090941979), (28.0,1656090942180), (49.0,1656090942231), (46.0,1656090942331), (39.0,1656090942381), (44.0,1656090942482), (49.0,1656090942582), (56.0,1656090942633), (66.0,1656090942683), (81.0,1656090942733), (103.0,1656090942783), (119.0,1656090942834), (150.0,1656090942884), (161.0,1656090942934), (179.0,1656090943286), (147.0,1656090943437), (115.0,1656090943487), (95.0,1656090943537), (88.0,1656090943688), (79.0,1656090943738), (68.0,1656090943788), (59.0,1656090943839), (53.0,1656090943889), (48.0,1656090944040), (45.0,1656090944090), (41.0,1656090944140), (37.0,1656090944190), (44.0,1656090944341), (56.0,1656090944391), (77.0,1656090944442), (104.0,1656090944492), (128.0,1656090944542), (143.0,1656090944643), (129.0,1656090944944), (145.0,1656090945095), (158.0,1656090945145), (169.0,1656090945246), (137.0,1656090945447), (106.0,1656090945497), (93.0,1656090945547), (83.0,1656090945698), (74.0,1656090945748), (79.0,1656090945849), (72.0,1656090945899), (78.0,1656090946000), (70.0,1656090946201), (79.0,1656090946402), (95.0,1656090946452), (110.0,1656090946502), (95.0,1656090946603), (86.0,1656090946653), (70.0,1656090946703), (59.0,1656090946753), (63.0,1656090946904), (72.0,1656090947055), (96.0,1656090947105), (130.0,1656090947155), (156.0,1656090947206), (115.0,1656090947306), (78.0,1656090947356), (17.0,1656090947407), (6.0,1656090947457), (9.0,1656090947507), (8.0,1656090947758)}
-    06-24 19:31:15.198, userId=0, 1.654962->213.9393, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(12.0,1656091860479), (13.0,1656091865053), (12.0,1656091865305), (15.0,1656091867365), (22.0,1656091867416), (15.0,1656091867516), (13.0,1656091867566), (15.0,1656091867617), (16.0,1656091867717), (19.0,1656091867868), (20.0,1656091868471), (22.0,1656091869275), (19.0,1656091869828), (17.0,1656091869929), (15.0,1656091869979), (13.0,1656091870029), (15.0,1656091870733), (13.0,1656091870783), (22.0,1656091871085), (26.0,1656091871135), (23.0,1656091871236), (23.0,1656091871286), (24.0,1656091871437), (24.0,1656091871487), (22.0,1656091871588), (16.0,1656091871638), (15.0,1656091871688), (16.0,1656091871839), (17.0,1656091871889), (16.0,1656091872040), (15.0,1656091872191), (16.0,1656091872342), (17.0,1656091872392), (23.0,1656091872442), (28.0,1656091872492), (31.0,1656091872543), (34.0,1656091872593), (35.0,1656091872794), (35.0,1656091872995), (37.0,1656091873196), (38.0,1656091873397), (38.0,1656091874302), (46.0,1656091874805), (53.0,1656091874905), (60.0,1656091875006)}
-    06-25 01:12:11.660, userId=0, 99.037895->273.27353, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(82.0,1656112320826), (71.0,1656112321881), (79.0,1656112321982), (85.0,1656112322233), (79.0,1656112322384), (85.0,1656112322534), (79.0,1656112322685), (88.0,1656112322786), (79.0,1656112322886), (86.0,1656112323037), (78.0,1656112323188), (71.0,1656112323590), (75.0,1656112323992), (79.0,1656112328616), (74.0,1656112328717), (81.0,1656112328867), (75.0,1656112328968), (81.0,1656112329420), (85.0,1656112329571), (63.0,1656112329973), (35.0,1656112330023), (38.0,1656112330124), (41.0,1656112330225), (48.0,1656112330275), (57.0,1656112330325), (61.0,1656112330375), (57.0,1656112330526), (49.0,1656112330576), (38.0,1656112330627), (50.0,1656112330727), (67.0,1656112330777), (74.0,1656112330828), (78.0,1656112330928)}
-    06-25 16:19:39.830, userId=0, 20.3103->257.30765, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(17.0,1656166755504), (15.0,1656166771136), (13.0,1656166771186), (12.0,1656166771236), (9.0,1656166771286), (6.0,1656166771337), (5.0,1656166771387), (4.0,1656166771437), (2.0,1656166771487), (4.0,1656166771789), (5.0,1656166773397), (6.0,1656166773448), (15.0,1656166773498), (17.0,1656166773548), (16.0,1656166773649), (17.0,1656166774202), (19.0,1656166774905), (16.0,1656166774955), (11.0,1656166775006), (12.0,1656166776564), (11.0,1656166776715), (12.0,1656166777167), (16.0,1656166777217), (13.0,1656166777318), (12.0,1656166777670), (11.0,1656166777770), (12.0,1656166778775), (13.0,1656166779429)}
-    06-26 21:04:27.118, userId=0, 39.040504->262.02856, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(1.0,1656270199576), (2.0,1656270259753), (4.0,1656270259863), (5.0,1656270259913), (8.0,1656270259964), (9.0,1656270260014), (9.0,1656270260064), (11.0,1656270260114), (12.0,1656270260165), (13.0,1656270260265), (12.0,1656270260466), (11.0,1656270260517), (9.0,1656270260667), (12.0,1656270261270), (13.0,1656270261321), (13.0,1656270261421), (15.0,1656270261471), (16.0,1656270261572), (17.0,1656270261622), (20.0,1656270261672), (24.0,1656270261723), (26.0,1656270261823), (28.0,1656270261873), (23.0,1656270261924), (19.0,1656270261974), (17.0,1656270262024), (15.0,1656270262125), (15.0,1656270262225), (13.0,1656270262326), (12.0,1656270262527), (13.0,1656270263281), (13.0,1656270263331), (15.0,1656270263381), (17.0,1656270263482), (15.0,1656270263582), (13.0,1656270263632), (12.0,1656270263683), (9.0,1656270263783), (9.0,1656270264135), (8.0,1656270264788), (11.0,1656270265341), (9.0,1656270265442), (11.0,1656270265643), (12.0,1656270265693), (12.0,1656270265743), (13.0,1656270265794), (17.0,1656270265844), (16.0,1656270265894), (22.0,1656270265995), (16.0,1656270266246), (15.0,1656270266346), (16.0,1656270266799)}
+  mLastBatteryLevel=0.46
+  mLastBrightness=77.705666
+  mLastSensorReadings.size=5
+  mLastSensorReadings time span 788377039916559->788387140542288
+  mEventsDirty=true
+  mEvents.size=40
     06-29 14:18:44.021, userId=0, 130.9928->0.0, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(0.0,1656504969476), (503.0,1656505115070), (459.0,1656505115200), (419.0,1656505115258), (382.0,1656505115316), (407.0,1656505115433), (459.0,1656505115483), (508.0,1656505115533), (421.0,1656505115684), (356.0,1656505116086), (267.0,1656505116136), (185.0,1656505116187), (103.0,1656505116237), (35.0,1656505116287), (20.0,1656505116338), (55.0,1656505116438), (101.0,1656505116488), (34.0,1656505116539), (34.0,1656505116589), (31.0,1656505116689), (26.0,1656505116991), (24.0,1656505117041), (22.0,1656505117092), (20.0,1656505117142), (19.0,1656505117242), (20.0,1656505117343), (22.0,1656505117393), (22.0,1656505117443), (24.0,1656505117494), (28.0,1656505117594), (49.0,1656505117644), (205.0,1656505117695), (386.0,1656505117745), (473.0,1656505117795), (590.0,1656505117845), (678.0,1656505117896), (612.0,1656505119052), (523.0,1656505119152), (473.0,1656505119203), (439.0,1656505119253), (407.0,1656505119303), (371.0,1656505119404), (348.0,1656505119655), (315.0,1656505119755), (290.0,1656505119856), (258.0,1656505120007), (239.0,1656505120258), (261.0,1656505120811), (279.0,1656505120861), (298.0,1656505120962), (265.0,1656505121112), (246.0,1656505121163), (267.0,1656505121314), (285.0,1656505121364), (309.0,1656505121414), (344.0,1656505121464), (395.0,1656505121866), (443.0,1656505121917), (475.0,1656505121967), (509.0,1656505122067), (611.0,1656505122269), (660.0,1656505122319), (707.0,1656505122419), (652.0,1656505122922), (586.0,1656505123022), (388.0,1656505123274), (424.0,1656505123324), (381.0,1656505123424), (448.0,1656505123525), (521.0,1656505123575), (582.0,1656505123626), (630.0,1656505123676), (671.0,1656505123827)}
     06-29 14:18:53.461, userId=0, 0.0->117.18786, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(509.0,1656505122067), (611.0,1656505122268), (660.0,1656505122318), (707.0,1656505122419), (652.0,1656505122921), (586.0,1656505123022), (388.0,1656505123273), (424.0,1656505123323), (381.0,1656505123424), (448.0,1656505123524), (521.0,1656505123575), (582.0,1656505123625), (630.0,1656505123675), (671.0,1656505123826), (568.0,1656505126490), (665.0,1656505126590), (601.0,1656505126691), (557.0,1656505126741), (519.0,1656505126791), (470.0,1656505126892), (502.0,1656505129204), (538.0,1656505132170)}
     06-29 14:20:12.153, userId=0, 117.18786->22.040634, isUserSetBrightness=true, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(541.0,1656505160317), (574.0,1656505211936)}
@@ -432,6 +424,27 @@ BrightnessTracker state:
     07-11 08:42:07.198, userId=0, 30.646997->243.40973, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(22.0,1657521716848), (19.0,1657521717501), (19.0,1657521717954), (17.0,1657521718306), (15.0,1657521718507), (13.0,1657521718758), (16.0,1657521718909), (19.0,1657521718959), (20.0,1657521719009), (15.0,1657521719060), (19.0,1657521719160), (15.0,1657521719210), (15.0,1657521719261), (13.0,1657521719311), (11.0,1657521719462), (11.0,1657521719613), (9.0,1657521719864), (9.0,1657521720015), (11.0,1657521720266), (9.0,1657521720366), (9.0,1657521720568), (9.0,1657521721372), (9.0,1657521721874), (8.0,1657521722628), (9.0,1657521722729), (9.0,1657521722980), (8.0,1657521723031), (9.0,1657521723684), (8.0,1657521723785), (9.0,1657521723835), (9.0,1657521724337), (11.0,1657521724438), (9.0,1657521724539), (9.0,1657521725795), (11.0,1657521725845), (9.0,1657521725946), (11.0,1657521726046), (12.0,1657521726147), (13.0,1657521726197), (11.0,1657521726298), (13.0,1657521726398), (12.0,1657521726599), (12.0,1657521726800), (15.0,1657521726851)}
     07-12 08:36:51.476, userId=0, 108.83438->282.82922, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(231.0,1657607800494), (210.0,1657607802202), (187.0,1657607802454), (199.0,1657607802605), (213.0,1657607802705), (227.0,1657607803208), (209.0,1657607803610), (192.0,1657607803811), (209.0,1657607804062), (223.0,1657607804213), (239.0,1657607805017), (256.0,1657607805469), (217.0,1657607806273), (195.0,1657607806676), (190.0,1657607806977), (177.0,1657607807078), (165.0,1657607807178), (151.0,1657607807480), (173.0,1657607807882), (188.0,1657607807982), (206.0,1657607808133), (225.0,1657607808284), (247.0,1657607808384), (239.0,1657607808786), (220.0,1657607808987), (217.0,1657607809540), (238.0,1657607809892), (221.0,1657607811350)}
     07-18 23:27:13.907, userId=0, 64.460304->286.6758, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(17.0,1658179622658), (16.0,1658179622709), (12.0,1658179622759), (5.0,1658179622809), (1.0,1658179622859), (0.0,1658179622910), (1.0,1658179626827), (6.0,1658179626889), (27.0,1658179626952), (31.0,1658179627002), (28.0,1658179627203), (31.0,1658179627253), (33.0,1658179627304), (30.0,1658179627806), (26.0,1658179627907), (28.0,1658179631727), (30.0,1658179632682)}
+    07-22 23:48:50.318, userId=0, 5.08->286.6758, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(0.0,1658526489308), (2.0,1658526519832), (2.0,1658526521759), (4.0,1658526522060), (2.0,1658526528293), (5.0,1658526528444)}
+    07-23 00:48:31.086, userId=0, 35.755867->238.49661, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(0.0,1658530075168), (1.0,1658530105350), (1.0,1658530105419), (4.0,1658530105558), (1.0,1658530105630), (2.0,1658530105828), (6.0,1658530106014), (12.0,1658530106130), (24.0,1658530106189), (27.0,1658530106247), (22.0,1658530106480), (17.0,1658530106538), (17.0,1658530106946), (16.0,1658530107097), (15.0,1658530107448), (13.0,1658530107499), (12.0,1658530107549), (11.0,1658530107599), (9.0,1658530109911), (8.0,1658530109962), (6.0,1658530110012), (5.0,1658530110163), (4.0,1658530110213), (5.0,1658530110313), (6.0,1658530110364), (8.0,1658530110414), (9.0,1658530110565), (8.0,1658530110716), (9.0,1658530110816), (6.0,1658530110917)}
+    07-23 15:22:02.158, userId=0, 62.81646->154.08043, isUserSetBrightness=false, powerBrightnessFactor=0.5, isDefaultBrightnessConfig=true {(290.0,1658582510382), (386.0,1658582511638), (287.0,1658582511890), (268.0,1658582511990), (353.0,1658582512141), (402.0,1658582512191), (309.0,1658582512342), (280.0,1658582512443), (384.0,1658582512694), (296.0,1658582512945), (313.0,1658582513096), (294.0,1658582513750), (263.0,1658582514956), (231.0,1658582515207), (203.0,1658582515258), (220.0,1658582515408), (239.0,1658582515459), (261.0,1658582515609), (348.0,1658582515710), (256.0,1658582516213), (236.0,1658582516263), (258.0,1658582516564), (349.0,1658582516665), (377.0,1658582516967), (286.0,1658582517419), (316.0,1658582518123), (297.0,1658582520033), (397.0,1658582520938), (291.0,1658582521290), (268.0,1658582521440)}
+    07-23 20:01:20.025, userId=0, 23.753963->427.6287, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(49.0,1658599268880), (55.0,1658599268930), (61.0,1658599269081), (55.0,1658599269232), (50.0,1658599269282), (64.0,1658599269332), (101.0,1658599269383), (134.0,1658599269433), (161.0,1658599269483), (185.0,1658599269534), (198.0,1658599269584), (216.0,1658599269785), (231.0,1658599269885), (207.0,1658599270086), (151.0,1658599270137), (78.0,1658599270187), (39.0,1658599270237), (24.0,1658599270288), (19.0,1658599270338), (17.0,1658599270388), (16.0,1658599270489), (13.0,1658599270539), (12.0,1658599270690), (11.0,1658599270740), (9.0,1658599270840), (30.0,1658599270941), (72.0,1658599270991), (78.0,1658599271042), (74.0,1658599271192), (67.0,1658599271243), (61.0,1658599271293), (57.0,1658599271393), (61.0,1658599271695), (57.0,1658599271846), (49.0,1658599271997), (45.0,1658599272097), (41.0,1658599272198), (37.0,1658599272449), (39.0,1658599272700), (41.0,1658599272851), (39.0,1658599273002), (35.0,1658599273052), (28.0,1658599273203), (13.0,1658599273253), (9.0,1658599273303), (11.0,1658599273354), (12.0,1658599273404), (11.0,1658599273504), (12.0,1658599273605), (13.0,1658599273655), (15.0,1658599273705), (12.0,1658599273756), (11.0,1658599273806), (9.0,1658599273856), (8.0,1658599273907), (11.0,1658599274660), (12.0,1658599274761), (13.0,1658599274811), (15.0,1658599274862), (16.0,1658599274912), (13.0,1658599274962), (12.0,1658599275012), (8.0,1658599275063), (11.0,1658599275113), (12.0,1658599275163), (13.0,1658599275213), (17.0,1658599275264), (22.0,1658599275314), (23.0,1658599275364), (20.0,1658599275465), (17.0,1658599275515), (13.0,1658599275565), (8.0,1658599275615), (9.0,1658599275666), (6.0,1658599275716), (5.0,1658599275766), (6.0,1658599276068), (5.0,1658599276319), (6.0,1658599277777), (5.0,1658599278883)}
+    07-23 22:10:33.756, userId=0, 9.138458->420.91867, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(2.0,1658607021922), (1.0,1658607023839), (2.0,1658607023946), (1.0,1658607024353), (2.0,1658607024909), (1.0,1658607026171), (2.0,1658607026221), (1.0,1658607026429), (2.0,1658607026479), (1.0,1658607027541), (2.0,1658607027647), (1.0,1658607029512), (2.0,1658607029732), (1.0,1658607030592), (2.0,1658607030642), (1.0,1658607031303), (2.0,1658607031353), (1.0,1658607031911), (2.0,1658607031962), (1.0,1658607032823), (2.0,1658607032985), (1.0,1658607033544)}
+    07-23 22:37:46.787, userId=0, 5.08->0.0, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(0.0,1658607916732), (0.0,1658608652246), (0.0,1658608652713), (0.0,1658608654250)}
+    07-24 00:08:25.142, userId=0, 0.0->155.66199, isUserSetBrightness=true, powerBrightnessFactor=0.5, isDefaultBrightnessConfig=true {(0.0,1658614058467), (0.0,1658614071781), (0.0,1658614072247)}
+    07-24 00:08:36.546, userId=0, 155.66199->0.0, isUserSetBrightness=true, powerBrightnessFactor=0.5, isDefaultBrightnessConfig=true {(0.0,1658614058467), (0.0,1658614071781), (0.0,1658614072247)}
+    07-24 00:10:07.908, userId=0, 0.0->213.9393, isUserSetBrightness=true, powerBrightnessFactor=0.5, isDefaultBrightnessConfig=true {(0.0,1658614158000), (0.0,1658614197576), (0.0,1658614197984)}
+    07-24 00:10:20.556, userId=0, 213.9393->0.0, isUserSetBrightness=true, powerBrightnessFactor=0.5, isDefaultBrightnessConfig=true {(0.0,1658614158000), (0.0,1658614197577), (0.0,1658614197984)}
+    07-24 00:10:45.642, userId=0, 0.0->213.9393, isUserSetBrightness=true, powerBrightnessFactor=0.5, isDefaultBrightnessConfig=true {(0.0,1658614158000), (0.0,1658614197576), (0.0,1658614197984)}
+    07-24 00:10:55.417, userId=0, 213.9393->0.0, isUserSetBrightness=true, powerBrightnessFactor=0.5, isDefaultBrightnessConfig=true {(0.0,1658614197984), (0.0,1658614250511), (0.0,1658614253012), (0.0,1658614255598)}
+    07-24 00:20:51.928, userId=0, 0.0->213.9393, isUserSetBrightness=true, powerBrightnessFactor=0.5, isDefaultBrightnessConfig=true {(1.0,1658614840522), (0.0,1658614841591), (1.0,1658614841703), (2.0,1658614843840), (12.0,1658614843897), (16.0,1658614843947), (20.0,1658614843997), (15.0,1658614844148), (6.0,1658614844198), (2.0,1658614844249), (1.0,1658614844299), (11.0,1658614849807), (20.0,1658614849862), (16.0,1658614849963), (4.0,1658614850013), (1.0,1658614850064), (4.0,1658614850563), (8.0,1658614850619), (9.0,1658614850670), (6.0,1658614850720), (1.0,1658614850770), (4.0,1658614851384), (1.0,1658614851490)}
+    07-24 11:01:22.943, userId=0, 92.1546->427.6287, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(27.0,1658653272055), (28.0,1658653273211), (31.0,1658653274066), (28.0,1658653274769), (27.0,1658653275423), (24.0,1658653276177), (27.0,1658653277081), (28.0,1658653278388), (31.0,1658653278841), (30.0,1658653279343), (42.0,1658653279846), (44.0,1658653281153), (31.0,1658653281555), (28.0,1658653282410)}
+    07-24 20:15:55.358, userId=0, 102.2207->427.6287, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(163.0,1658686543865), (152.0,1658686548289), (165.0,1658686552964), (185.0,1658686553064), (167.0,1658686553114), (191.0,1658686553165), (312.0,1658686553315), (271.0,1658686553416), (152.0,1658686553466), (161.0,1658686553516), (199.0,1658686553567), (318.0,1658686553718), (290.0,1658686553868), (264.0,1658686553969), (289.0,1658686554120), (239.0,1658686554321), (203.0,1658686554371), (176.0,1658686554421), (165.0,1658686554472)}
+    07-24 21:01:20.638, userId=0, 5.08->197.5334, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(0.0,1658689270409), (1.0,1658689270520), (0.0,1658689270577), (1.0,1658689270634), (0.0,1658689270690), (1.0,1658689270746), (0.0,1658689270802), (1.0,1658689270859), (0.0,1658689270915), (1.0,1658689271590), (2.0,1658689272710), (5.0,1658689273018), (6.0,1658689273219), (8.0,1658689273872), (9.0,1658689274023), (8.0,1658689274727), (6.0,1658689274827), (5.0,1658689274928), (4.0,1658689275079), (2.0,1658689275129), (4.0,1658689275732), (5.0,1658689275782), (6.0,1658689275883), (8.0,1658689275933), (6.0,1658689276788), (5.0,1658689276888), (6.0,1658689278044), (5.0,1658689278144), (6.0,1658689278295), (8.0,1658689279301), (6.0,1658689279401), (5.0,1658689279451), (4.0,1658689279502), (5.0,1658689280054), (4.0,1658689280406)}
+    07-25 09:50:54.144, userId=0, 230.16751->427.6287, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(1035.0,1658735438840), (1160.0,1658735452711), (1315.0,1658735452761), (1626.0,1658735452812), (1834.0,1658735452862), (2050.0,1658735452912), (1707.0,1658735453113), (1543.0,1658735453163), (1432.0,1658735453214), (1597.0,1658735453616), (1732.0,1658735453666), (1511.0,1658735453917), (1388.0,1658735454068)}
+    07-25 22:05:24.422, userId=0, 5.08->195.86188, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(2.0,1658779497487), (1.0,1658779515481), (2.0,1658779515980), (1.0,1658779516288), (2.0,1658779516338), (1.0,1658779516546), (4.0,1658779516596), (5.0,1658779516702), (4.0,1658779517657), (2.0,1658779518612), (4.0,1658779521125), (2.0,1658779523286), (1.0,1658779523387), (0.0,1658779523661), (1.0,1658779523718)}
+    07-25 23:31:22.488, userId=0, 5.08->208.9533, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(5.0,1658784670620), (4.0,1658784672530), (1.0,1658784673183), (0.0,1658784673401), (1.0,1658784678486), (4.0,1658784678651), (5.0,1658784678706), (4.0,1658784679259), (5.0,1658784680113), (4.0,1658784681320)}
+    07-26 22:23:55.514, userId=0, 5.08->213.9393, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(0.0,1658866302565), (1.0,1658867031174), (2.0,1658867031524), (4.0,1658867033336)}
+    07-27 07:18:25.323, userId=0, 7.046839->49.348377, isUserSetBrightness=false, powerBrightnessFactor=1.0, isDefaultBrightnessConfig=true {(5.0,1658899088818), (4.0,1658899105000)}
   mWriteBrightnessTrackerStateScheduled=false
   mSensorRegistered=true
   mColorSamplingEnabled=false
@@ -439,13 +452,13 @@ BrightnessTracker state:
   mFrameRate=0.0
 
 AmbientBrightnessStats:
-  0 2022-07-15 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {726.39764, 0.0, 0.0, 1742.1404, 666.74817, 1013.6732, 1080.7086, 236.26012, 446.8182, 586.1144, 227.15012, 380.15848}
-  0 2022-07-16 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {410.0883, 0.0, 0.0, 2131.776, 2842.796, 3703.6821, 1426.7861, 3213.5488, 2320.2607, 1124.5511, 1460.7035, 631.1857}
-  0 2022-07-17 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {1451.466, 0.0, 0.0, 961.23047, 579.8565, 635.09625, 3026.0574, 4091.7014, 5418.629, 1719.316, 1712.3025, 1468.6305}
-  0 2022-07-18 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {602.2339, 0.0, 0.0, 274.74094, 2499.999, 4801.028, 11791.668, 4934.657, 1335.6915, 594.0588, 1956.4106, 315.50977}
-  0 2022-07-19 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {926.82025, 0.0, 0.0, 342.933, 1220.3848, 2500.7053, 8761.506, 5547.4194, 363.69415, 14.042002, 11.396998, 6.9960003}
-  0 2022-07-20 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {418.8049, 0.0, 0.0, 1201.6675, 2662.3845, 2901.796, 3161.0942, 3041.3916, 95.654, 0.159, 0.0, 0.0}
-  0 2022-07-21 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {1382.7776, 0.0, 0.0, 453.00928, 292.2502, 1692.6044, 5035.9785, 3353.8113, 177.99803, 3.5169997, 0.0, 0.0}
+  0 2022-07-21 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {1405.3315, 0.0, 0.0, 752.25055, 4149.875, 1884.574, 5941.7363, 5304.904, 180.27904, 3.6719997, 0.0, 0.0}
+  0 2022-07-22 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {758.9618, 0.0, 0.0, 2574.3267, 3532.4075, 3322.2178, 5213.926, 2078.463, 171.78287, 4.463, 0.0, 0.0}
+  0 2022-07-23 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {1751.9703, 0.0, 0.0, 542.93726, 1577.9945, 3981.8398, 5452.4805, 8700.009, 1946.8915, 932.66547, 282.896, 4.084}
+  0 2022-07-24 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {1224.5999, 0.0, 0.0, 867.8799, 3429.841, 5887.012, 3947.7246, 6379.6304, 1121.8077, 965.37964, 212.95195, 73.47705}
+  0 2022-07-25 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {635.1609, 0.0, 0.0, 964.1007, 3481.7861, 1562.3506, 4154.1157, 5208.9316, 2562.033, 688.6192, 263.73502, 1.4770001}
+  0 2022-07-26 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {280.48798, 0.0, 0.0, 1153.9468, 1762.1255, 1218.7286, 3232.4233, 5107.65, 3907.7295, 54.20992, 33.657997, 0.0}
+  0 2022-07-27 {0.0, 0.1, 0.3, 1.0, 3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0} {743.581, 0.0, 0.0, 215.74698, 1084.2661, 2465.7751, 2643.8774, 4037.5073, 2929.5742, 813.84576, 307.23236, 55.583996}
 
 
 PersistentDataStore
@@ -458,6 +471,6 @@ PersistentDataStore
       StableDisplayHeight=2280
   BrightnessConfigurations:
       User 0:
-        set at: 2022-07-19 18:37:30
+        set at: 2022-07-27 09:20:15
         set by: com.google.android.apps.turbo
-        BrightnessConfiguration{[(0.0, 6.571739), (0.006737947, 6.571739), (0.011108996, 6.6726193), (0.01831564, 6.7933073), (0.030197384, 6.9180646), (0.049787067, 7.0113826), (0.082085, 7.0620685), (0.13533528, 7.1318583), (0.22313017, 7.2645035), (0.36787945, 7.4933352), (0.60653067, 7.9238214), (1.0, 9.245206), (1.6487212, 12.304997), (2.7182817, 17.752483), (4.481689, 26.645954), (7.389056, 40.668415), (12.182494, 61.867985), (20.085537, 87.26041), (33.11545, 107.63083), (54.59815, 116.1594), (90.01713, 118.145836), (148.41316, 121.84743), (244.69193, 124.83287), (403.4288, 137.81122), (665.14166, 171.27467), (1096.6332, 235.25275), (1808.0424, 280.6577), (2980.958, 370.79077), (4914.769, 416.74777), (8103.084, 439.83768), (13359.727, 454.8295), (22026.465, 473.40814), (36315.504, 503.7832), (59874.14, 556.3448), (98715.77, 646.72614), (162754.8, 796.646), (268337.28, 1038.884), (442413.4, 1421.6602), (729416.4, 2007.7734), (1202604.2, 2856.6233), (1982759.2, 3973.4036), (3269017.2, 5245.538), (5389698.5, 6518.858), (8886111.0, 7999.993)], {}, 'modelId:12, shouldCollectColorSamples = false'}
+        BrightnessConfiguration{[(0.0, 2.8617597), (0.006737947, 2.8617597), (0.011108996, 2.9104822), (0.01831564, 2.9908116), (0.030197384, 3.1232526), (0.049787067, 3.3416114), (0.082085, 3.701624), (0.13533528, 4.295184), (0.22313017, 5.2738004), (0.36787945, 6.5692945), (0.60653067, 7.478276), (1.0, 9.16425), (1.6487212, 12.432319), (2.7182817, 18.00373), (4.481689, 27.079264), (7.389056, 41.408154), (12.182494, 62.932316), (20.085537, 88.7504), (33.11545, 109.510254), (54.59815, 117.2764), (90.01713, 119.101364), (148.41316, 122.41056), (244.69193, 125.4189), (403.4288, 138.85904), (665.14166, 175.38943), (1096.6332, 251.55193), (1808.0424, 280.6577), (2980.958, 400.88028), (4914.769, 443.56754), (8103.084, 461.39056), (13359.727, 472.92596), (22026.465, 487.7603), (36315.504, 513.28656), (59874.14, 560.84033), (98715.77, 648.1385), (162754.8, 797.15594), (268337.28, 1040.1068), (442413.4, 1424.4592), (729416.4, 2012.2388), (1202604.2, 2862.054), (1982759.2, 3978.4731), (3269017.2, 5249.4014), (5389698.5, 6523.1616), (8886111.0, 8000.001)], {}, 'modelId:12, shouldCollectColorSamples = false'}
