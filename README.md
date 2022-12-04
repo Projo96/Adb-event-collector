@@ -1,5 +1,5 @@
 # Adb-event-collector
-This repository contains and Android events collector created through usiing a combination of python and adb portable
+This repository contains and Android events collector created using a combination of python and adb portable
 
 No Android Studio installation is required and it works different operating systems.
 
